@@ -1,0 +1,162 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+.navbar-div{
+  background-color: #f93;
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+body{
+  background: rgb(248, 230, 203);
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color:#fff;
+  white-space: nowrap;
+  background: #555;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+.navbar-link{
+  border:none;
+  background: transparent;
+  padding: 5px;
+  color: #fff;
+}
+.nav-link:hover{
+  border-bottom: 1px solid white;
+}
+.main-body{
+  display: flex;
+}
+
+.main-body .left{
+  background: rgb(5, 86, 117);
+  padding: 20px;
+  width: 350px;
+  color: #e5e5e5;
+}
+.main-body .right{
+  background: #e5e5e5;
+  padding: 60px;
+ 
+}
+
+.name{
+  font-size: 1.3rem;
+  display: flex;
+}
+
+.name div:nth-child(1){
+  margin-right: 10px;
+}
+
+
+.personal,.skills,.languages{
+  padding: 20px;
+}
+.left .heading{
+  font-size: 1.3rem;
+  margin: 10px 0;
+  font-weight: 700;
+  margin-left: -20px;
+  color: #fff;
+}
+.right .heading{
+  font-size: 1.3rem;
+  margin: 10px 0;
+  font-weight: 700;
+  margin-left: -30px;
+  color:rgb(5, 86, 117);
+}
+
+.left .label{
+  width: 120px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.right .label{
+  width: 200px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+.templates{
+  margin: 20px;
+  margin-top: 40px;
+  width:300px;
+  height: 400px;
+  border: 1px solid black;
+}
+.templates:hover{
+  transition:0.8s;
+  transform: scale(1.2);
+}
+
+.buttons-download{
+  margin: 10px 0;
+}
