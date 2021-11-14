@@ -1,4 +1,4 @@
-# WDDN_DotNet_Project_CE033_CE096_CE129
+# WDDN_DotNetCore_Project_CE033_CE096_CE129
 
 
 #skills
